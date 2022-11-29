@@ -25,8 +25,8 @@ function whoWins (kryptonite, enemyName)
 
 for (var i=0; i<enemies.length; i++)
 {
-        var kryptonite:
-                if (i%2 === 0) {
+        var kryptonite
+                if (i %2 === 0) {
                     kryptonite = true;
                 } else{
                         kryptonite = false;
