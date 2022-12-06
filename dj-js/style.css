@@ -1,0 +1,7 @@
+#square{
+    width: 700px;
+    height: 700px;
+    align-self: center;
+    border-style: dotted;
+    border-color: black;
+}
