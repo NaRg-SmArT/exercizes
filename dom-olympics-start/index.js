@@ -35,7 +35,6 @@ function blank(){
    messages.remove()
 }
 
-//test[0].textContnnt = "Put string here"
 //CHANGE TEXT STUFF
 
 var changeText = document.getElementsByClassName("message")
