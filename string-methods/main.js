@@ -1,5 +1,3 @@
-
-
 //CAPS PLUS LOWERCASE
 
     function tipYourCaps(string){
