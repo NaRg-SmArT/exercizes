@@ -4,14 +4,14 @@ const alphabet = "abcdefghijklmnopqrstuvwxyz"
 
 function forception(array, string){
 
-    const finishedArr = []
+    const finishedArr = [] //empty box
 
-        string.split("")    
+        string.split("") //string into array   
 
-            for(var i = 0; i < array.length; i++){
+            for(var i = 0; i < array.length; i++){ //push name
                 finishedArr.push(array[i] + ":")
 
-                    for(var j = 0; j < string.length; j++){
+                    for(var j = 0; j < string.length; j++){ //push entire alphabet, then return to push name
                         finishedArr.push(string[j])
                     }
         
